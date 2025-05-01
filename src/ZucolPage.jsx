@@ -42,7 +42,7 @@ const ZucolPage = () => {
                         </Col>
                         <Col md={6}>
                             <img
-                                src="https://via.placeholder.com/600x300"
+                                src="https://via.placeholder.com/600x300" // Replace with actual collage/image
                                 alt="Digital Outsourcing"
                                 className="img-fluid"
                             />
