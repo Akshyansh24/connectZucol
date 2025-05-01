@@ -5,16 +5,18 @@ import CounterSection from './counter/CounterSection'
 import Certifications from './certification/Certifications'
 import Testimonial from './testimonial/Testimonial'
 import Banner from './banner/Banner'
+import Clients from './clients/Clients'
 
 function Home() {
   return (
     <>
     <Banner/>
         <OurService/>
-        <WhyChooseUs/>
-        <CounterSection/>
         <Certifications/>
-        <Testimonial/>
+        <Clients/>
+        {/* <WhyChooseUs/>
+        <CounterSection/>
+        <Testimonial/> */}
     </>
   )
 }

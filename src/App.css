@@ -1,0 +1,95 @@
+.btn-primary{
+  color: white !important;
+  background-color: #2F80ED !important;
+  border-radius: 90px !important;
+  padding: 8px 50px !important;
+  font-weight: 500 !important;
+}
+
+/* -------------------------------------------------------- */
+
+.service-section .heading{
+  border-bottom: 2px solid #bfbfbf;
+}
+
+.service-section .heading h2{
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.service-section .serviceCard{
+  margin-top: 40px;
+}
+
+.service-section .serviceCard h3{
+  color: #2F80ED;
+  font-weight: 400;
+}
+
+
+.service-section .serviceCard p{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+.service-section .btn-primary{
+
+}
+
+
+.chooseUs-section{
+  background: rgba(47, 128, 237, 1);
+}
+
+/* ------------ Certificate ------------- */
+
+.certificate .heading h2{
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-weight: 400;
+  position: relative;
+}
+
+.certificate .heading h2::before{
+  position: absolute;
+  content: "";
+  width: 4%;
+  height: 2px;
+  background-color: #2F80ED;
+  position: absolute;
+  content: '';
+  height: 4px;
+  top: 20px;
+  /* background-color: #2b3379; */
+  /* bottom: -18px; */
+  left: 33%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.certificate .heading h2::after{
+  position: absolute;
+  content: "";
+  width: 4%;
+  height: 2px;
+  background-color: #2F80ED;
+  position: absolute;
+  content: '';
+  height: 4px;
+  top: 20px;
+  /* background-color: #2b3379; */
+  /* bottom: -18px; */
+  right: 29%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.certificate .img-box img{
+  width: 130px;
+  height: 100px;
+}
