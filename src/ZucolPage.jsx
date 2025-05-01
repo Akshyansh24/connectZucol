@@ -1,4 +1,4 @@
-// ZucolPage.js
+
 import React from 'react';
 import { Container, Row, Col, Button, Nav, Navbar, Form, FormControl } from 'react-bootstrap';
 
@@ -42,7 +42,7 @@ const ZucolPage = () => {
                         </Col>
                         <Col md={6}>
                             <img
-                                src="https://via.placeholder.com/600x300" // Replace with actual collage/image
+                                src="https://via.placeholder.com/600x300"
                                 alt="Digital Outsourcing"
                                 className="img-fluid"
                             />
