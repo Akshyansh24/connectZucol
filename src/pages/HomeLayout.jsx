@@ -6,9 +6,9 @@ import Footer from '../components/layout/Footer'
 function HomeLayout() {
   return (
     <>
-        <Header/>
-        <Outlet/>
-        <Footer/>
+      <Header />
+      <Outlet />
+      <Footer />
     </>
   )
 }

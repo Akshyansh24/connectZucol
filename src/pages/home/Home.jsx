@@ -11,12 +11,13 @@ function Home() {
   return (
     <>
     <Banner/>
-        <OurService/>
-        <Certifications/>
-        <Clients/>
-        {/* <WhyChooseUs/>
-        <CounterSection/>
-        <Testimonial/> */}
+
+      <Banner />
+      <OurService />
+      <WhyChooseUs />
+      <CounterSection />
+      <Certifications />
+      <Testimonial />
     </>
   )
 }

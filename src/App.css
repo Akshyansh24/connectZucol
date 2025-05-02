@@ -1,103 +1,55 @@
-.btn-primary{
-  color: white !important;
-  background-color: #2F80ED !important;
-  border-radius: 90px !important;
-  padding: 8px 50px !important;
-  font-weight: 500 !important;
-}
-
-/* -------------------------------------------------------- */
-
-.service-section .heading{
-  border-bottom: 2px solid #bfbfbf;
-}
-
-.service-section .heading h2{
-  margin-bottom: 5px;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
+.text-head{
+  color:white !important;
 }
 
 
-.service-section .serviceCard{
-  margin-top: 40px;
+.services-section {
+  position: relative;
+  background: linear-gradient(to right, rgb(183, 184, 185), #f4f3fc);
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 12px 0;
+  overflow: hidden;
 }
 
-.service-section .serviceCard h3{
-  color: #2F80ED;
-  font-weight: 400;
-}
-
-
-.service-section .serviceCard p{
-  font-weight: 400;
-  font-size: 18px;
-}
-
-
-.service-section .btn-primary{
-
-}
-
-
-.chooseUs-section{
-  background: rgba(47, 128, 237, 1);
-}
-
-/* ------------ Certificate ------------- */
-
-.certificate .heading h2, .client .heading h2{
-  margin-bottom: 5px;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  color: black;
-  font-weight: 400;
+.services-wrapper {
+  display: flex;
+  align-items: center;
   position: relative;
 }
 
-.certificate .heading h2::before, .client .heading h2::before{
-  position: absolute;
-  content: "";
-  width: 4%;
-  height: 2px;
-  background-color: #2F80ED;
-  position: absolute;
+.services-label {
+  font-weight: 600;
+  color: #1366e7;
+  font-size: 18px;
+  margin-right: 20px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.services-label::before {
   content: '';
-  height: 4px;
-  top: 20px;
-  /* background-color: #2b3379; */
-  /* bottom: -18px; */
-  left: 33%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 100%;
+  background: linear-gradient(to right, #d9e6ff, transparent);
+  z-index: 1;
 }
 
-.certificate .heading h2::after, .client .heading h2::after{
-  position: absolute;
-  content: "";
-  width: 4%;
-  height: 2px;
-  background-color: #2F80ED;
-  position: absolute;
+.services-swiper {
+  flex: 1;
+  position: relative;
+}
+
+.services-swiper::after {
   content: '';
-  height: 4px;
-  top: 20px;
-  /* background-color: #2b3379; */
-  /* bottom: -18px; */
-  right: 29%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-
-.certificate .img-box img, .client .img-box img{
-  width: 130px;
-  height: 100px;
-}
-
-.client .heading h2::after{
-  right: 37% !important;
-}
-
-.client .heading h2::before{
-  left: 40% !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 100%;
+  background: linear-gradient(to right, transparent, #f4f3fc);
+  z-index: 2;
 }
