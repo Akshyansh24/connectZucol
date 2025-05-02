@@ -9,12 +9,12 @@ import Banner from './banner/Banner'
 function Home() {
   return (
     <>
-    <Banner/>
-        <OurService/>
-        <WhyChooseUs/>
-        <CounterSection/>
-        <Certifications/>
-        <Testimonial/>
+      <Banner />
+      <OurService />
+      <WhyChooseUs />
+      <CounterSection />
+      <Certifications />
+      <Testimonial />
     </>
   )
 }
