@@ -46,7 +46,7 @@
 
 /* ------------ Certificate ------------- */
 
-.certificate .heading h2{
+.certificate .heading h2, .client .heading h2{
   margin-bottom: 5px;
   text-align: center;
   font-family: "Open Sans", sans-serif;
@@ -55,7 +55,7 @@
   position: relative;
 }
 
-.certificate .heading h2::before{
+.certificate .heading h2::before, .client .heading h2::before{
   position: absolute;
   content: "";
   width: 4%;
@@ -72,7 +72,7 @@
   transform: translateX(-50%);
 }
 
-.certificate .heading h2::after{
+.certificate .heading h2::after, .client .heading h2::after{
   position: absolute;
   content: "";
   width: 4%;
@@ -89,7 +89,15 @@
   transform: translateX(-50%);
 }
 
-.certificate .img-box img{
+.certificate .img-box img, .client .img-box img{
   width: 130px;
   height: 100px;
+}
+
+.client .heading h2::after{
+  right: 37% !important;
+}
+
+.client .heading h2::before{
+  left: 40% !important;
 }

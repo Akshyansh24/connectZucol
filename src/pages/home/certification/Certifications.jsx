@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap'
 import { Swiper, SwiperSlide } from 'swiper/react'
 function Certifications() {
   return (
-    <section className='certificate p-40' style={{background:"#E0ECFC"}}>
+    <section className='certificate p-40' >
     <div className="heading mb-5">
       <h2>Our Certificate</h2>
     </div>

@@ -4,7 +4,7 @@ import { certificateData } from '../../../data.js'
 import { Container } from 'react-bootstrap'
 function Clients() {
   return (
-      <section className='certificate p-40'>
+      <section className='p-40 client' style={{background:"#E0ECFC"}}>
         <div className="heading mb-5">
           <h2>Our Clients</h2>
         </div>
